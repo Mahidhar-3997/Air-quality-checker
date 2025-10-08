@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Air Quality Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Air Quality Checker</h1>
+
+  <div class="form-container">
+    <form id = "form">
+        <label for ="latitude">Latitude:</label>
+        <input type="text" id="latitude" placeholder="Enter Latitude">
+        <label for ="longitude">Longitude:</label>
+        <input type="text" id="longitude" placeholder="Enter Longitude">
+        <button type="submit">Check Air Quality</button>
+    </form>
+
+   
+  </div>
+   <div class="info" id = "resultcontainer"> 
+        <h1 class="info-title">Air Quality:</h1>
+        <p class="info-text">AQI: <span id = "aqi"></span></p>
+        <p class="info-text">CO: <span id = "co"></span></p>
+        <p class="info-text">NO₂: <span id = "no2"></span></p>
+        <p class="info-text">O₃: <span id = "o3"></span></p>
+        <p class="info-text">PM2.5: <span id = "pm2.5"></span></p>
+        <p class="info-text">PM10: <span id = "pm10"></span></p>
+        <p class="info-text">SO₂: <span id = "so2"></span></p>
+    </div>
+
+ 
+<script src = "app.js"></script>
+
+</body>
+</html>
