@@ -106,7 +106,7 @@ h1 {
 
 /* Paragraph styling */
 .info-text {
-  color: #ffffff;
+  color: rgb(10, 2, 2);
   font-size: 1rem;
   font-weight: 500;
   background: rgba(79, 172, 254, 0.2);
@@ -120,7 +120,7 @@ h1 {
 
 /* Highlight the value */
 .info-text span {
-  color: #fff;
+  color: black;
   font-weight: 600;
   font-size: 1.1rem;
 }
